@@ -1,4 +1,6 @@
-Contents:
+                          ****Data rate control in distributed systems using feedback****
+<<<<<Contents:>>>>>
+
 Client:
 clientdr.cpp and clientdr.h are the source code for the "client" that measures the data rate.
 Server:
@@ -15,7 +17,8 @@ make will generate the following executables:
 ./serverdr.out
 ./remote_serverdr.out
 
-Execution:
+<<<<<Execution:>>>>>
+
 1. First start the server to listen to the client by typing the following command:
 
 "./serverdr.out" 
@@ -36,9 +39,9 @@ measure the data rate and send an email with the measured data rate and stops Ex
 
 4. Now start the client again by typing  "./clientdr.out  ip.address.of.server". The measured data rate is displayed on the console and it is lesser than the data rate that is measured earlier and closer to the value of desired data rate.
 
-**For every new test, please close the previous "./serverdr.out" and "./remoteserverdr.out" and restart them again. 
+<<<<Important Notes:>>>>
 
-Note: 
+**For every new test, please close the previous "./serverdr.out" and "./remoteserverdr.out" and restart them again. 
 -Please make sure to execute the steps in the same order as above.
 -Please make sure that desired data rate entered is less than the measured data rate.
 -If there is a problem, please make sure to close all the three terminals and restart them again.
